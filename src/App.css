@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+li {
+  background: #efefef;
+  list-style: none;
+  width: 50%;
+  border-radius: 50px;
+  margin: 10px auto;
+  padding: 0 15px;
+}
+li:nth-child(even){
+  background: #e4e4e4;
+}
+h1{
+  background-color: #efefef;
+  padding: 10px;
+}
+button {
+  border-radius: 50px;
+  border: none;
+  padding:10px;
+  margin: 2px;
+}
+button:focus,input:focus {
+  outline: 0px;
+}
+ul {
+    padding: 0;
+}
+input{
+  border-radius:50px;
+  border:none;
+  background-color:#e4e4e4;
+  color:#000;
+  padding:10px;
+  width: 50%;
+}
+
+.line-hide{
+  text-decoration: none;
+}
+.line-show{
+  text-decoration: line-through red;
+}
+button.delete-btn {
+  background: red;
+  color: #fff;
+}
+
+button.add-btn {
+  background: green;
+  color: #fff;
+}
+
+button.edit-btn {
+  background: yellow;
+}
+
+button.stroke-btn {
+  background: darkgrey;
+}
